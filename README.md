@@ -13,5 +13,7 @@ command could be used to open shell session in needed docker image.
 ## Api
 
 **POST** `localhost:3000/game/create` - for card deck creation
+
 **GET** `localhost:3000/game/open/:uuid` - open card deck
+
 **GET** `localhost:3000/game/draw/:uuid?count=:count` - draw n cards
