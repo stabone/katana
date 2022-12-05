@@ -10,8 +10,6 @@ services:
     build:
       dockerfile: ./docker/api.dockerfile
       context: .
-      # Only will build development stage from our dockerfile
-      # target: development
     volumes:
       - .:/usr/app
       - /usr/app/node_modules
